@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic profile of Dr. Shiraz Khurana, Assistant Professor, School of ICT, Gautam Buddha University." />
+  <title>Dr. Shiraz Khurana | Academic Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <span class="brand-mark">SK</span>
+        <span>
+          <strong>Dr. Shiraz Khurana</strong>
+          <small>Academic & Research Profile</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#supervision">Supervision</a>
+        <a href="#activities">Activities</a>
+        <a href="#projects">Projects</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Assistant Professor · Researcher · Educator</p>
+          <h1>Advancing research and education in intelligent and immersive technologies.</h1>
+          <p class="hero-text">
+            I am Dr. Shiraz Khurana, Assistant Professor in the School of Information and Communication Technology,
+            Gautam Buddha University. My work spans machine learning, augmented reality, virtual reality,
+            computer vision and emerging technologies.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#publications">View Publications</a>
+            <a class="btn btn-secondary" href="assets/Resume.pdf">Download Resume</a>
+          </div>
+          <div class="quick-stats" id="quickStats"></div>
+        </div>
+
+        <aside class="profile-card">
+          <div class="profile-photo-wrap">
+            <img src="assets/profile/profile1.jpeg" alt="Profile photograph of Dr. Shiraz Khurana" />
+          </div>
+          <h2>Dr. Shiraz Khurana</h2>
+          <p>Assistant Professor</p>
+          <p>School of ICT, Gautam Buddha University</p>
+          <div class="profile-links">
+            <a href="#contact">Email</a>
+            <a href="https://scholar.google.com/citations?hl=en&user=azSNk_AAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar profile">Google Scholar</a>
+            <a href="https://in.linkedin.com/in/dr-shiraz-khurana-404ba422" target="_blank" rel="noopener" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=shiraz%20khurana" target="_blank" rel="noopener" aria-label="IEEE Xplore publications">IEEE Xplore</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">About Me</p>
+          <h2 class="section-title">Academic profile</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Dr. Shiraz Khurana is an academician and researcher with over 15 years of teaching and research experience in India and abroad. 
+            He is currently working as an Assistant Professor at Gautam Buddha University, Greater Noida. Previously, he has held senior academic positions at Sharda University and Panipat Institute of Engineering & Technology, where he also led the AR/VR Studio and coordinated emerging technology programs. 
+            He has also worked internationally as an IT Lecturer at the Kirirom Institute of Technology, Cambodia, gaining extensive cross-cultural academic exposure.
+Dr. Khurana holds a Ph.D. in Computer Science from Kurukshetra University with specialization in Cognitive Radio Ad Hoc Networks. 
+His core expertise spans Augmented Reality, Virtual Reality, Machine Learning, Cognitive Networks, and Game Development, with strong command over programming in Java, Python, and C# and hands-on experience with Unity, and emerging immersive technologies. He has published 7 patents (out of which 2 are granted), 25 Research papers. 
+He has also delivered 20+ invited talks and workshops on Game Development, AR/VR, and Machine Learning across premier institutions including IIT, NITTTR and other international forums.
+          </p>
+          <p>
+            Beyond academics, Dr. Khurana has led industry projects in Deep Learning for Solar Power Plant Optimization (Japan) and Virtual Reality-based Property Walkthrough Applications (Cambodia). 
+            His contributions have been recognized through awards at national hackathons, including 1st Prize at Hackathon-2020 (Ministry of Health & Family Welfare) 
+and 2nd Prize at Hackathon-2017 (Ministry of Skill Development & Entrepreneurship).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section section-muted">
+      <div class="container">
+        <p class="section-kicker">Research</p>
+        <h2 class="section-title">Research interests</h2>
+        <div class="card-grid" id="researchGrid"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker">Scholarly Work</p>
+            <h2 class="section-title">Publications and intellectual contributions</h2>
+          </div>
+          <div class="filter-group" aria-label="Publication filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="journal">Journals</button>
+            <button class="filter-btn" data-filter="conference">Conferences</button>
+            <button class="filter-btn" data-filter="book">Books & Chapters</button>
+            <button class="filter-btn" data-filter="patent">Patents</button>
+          </div>
+        </div>
+        <div class="timeline-list" id="publicationList"></div>
+      </div>
+    </section>
+
+
+    <section id="supervision" class="section section-muted">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker">Research Mentorship</p>
+            <h2 class="section-title">Student supervision</h2>
+            <p class="section-intro">Selected PhD, M.Tech, B.Tech and internship research supervised or co-supervised.</p>
+          </div>
+          <div class="filter-group supervision-filters" aria-label="Student supervision filters">
+            <button class="supervision-filter active" data-supervision-filter="all">All</button>
+            <button class="supervision-filter" data-supervision-filter="PhD">PhD</button>
+            <button class="supervision-filter" data-supervision-filter="M.Tech">M.Tech</button>
+            <button class="supervision-filter" data-supervision-filter="B.Tech">B.Tech</button>
+            <button class="supervision-filter" data-supervision-filter="Internship">Internship</button>
+          </div>
+        </div>
+        <div class="supervision-summary" id="supervisionSummary"></div>
+        <div class="supervision-grid" id="supervisionGrid"></div>
+      </div>
+    </section>
+
+    <section id="activities" class="section">
+      <div class="container">
+        <p class="section-kicker">Academic Engagement</p>
+        <h2 class="section-title">Activities</h2>
+
+        <div class="accordion-grid" id="activityAccordion"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-kicker">Innovation</p>
+        <h2 class="section-title">Selected projects</h2>
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section id="downloads" class="section section-muted">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker">Student Resources</p>
+            <h2 class="section-title">Downloads</h2>
+            <p class="section-intro">Previous-year question papers, notes, presentations and other learning resources.</p>
+          </div>
+        </div>
+
+        <div class="download-access-card" id="downloadAccessCard">
+          <div class="download-lock-icon" aria-hidden="true">🔒</div>
+          <div>
+            <h3>Protected student resources</h3>
+            <p>Enter the password shared by your instructor to view and download the files.</p>
+          </div>
+          <form class="download-login-form" id="downloadLoginForm">
+            <label class="sr-only" for="downloadPassword">Password</label>
+            <input id="downloadPassword" type="password" autocomplete="current-password" placeholder="Enter password" required>
+            <button class="btn btn-primary" type="submit">Unlock resources</button>
+          </form>
+          <p class="download-message" id="downloadMessage" role="status" aria-live="polite"></p>
+        </div>
+
+        <div class="protected-downloads" id="protectedDownloads" hidden>
+          <div class="download-toolbar">
+            <div class="filter-group" aria-label="Download filters">
+              <button class="download-filter active" data-download-filter="all">All</button>
+              <button class="download-filter" data-download-filter="question-paper">Question Papers</button>
+              <button class="download-filter" data-download-filter="notes">Notes</button>
+              <button class="download-filter" data-download-filter="presentation">Presentations</button>
+              <button class="download-filter" data-download-filter="other">Other</button>
+            </div>
+            <button class="lock-downloads-btn" id="lockDownloads" type="button">Lock resources</button>
+          </div>
+          <div class="student-download-grid" id="studentDownloadGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 class="section-title">Let us connect</h2>
+          <p>
+            For academic collaboration, research supervision, invited talks, workshops or institutional
+            initiatives, please contact me through the details provided here.
+          </p>
+        </div>
+        <div class="contact-card">
+          <div>
+            <small>Email</small>
+            <a href="mailto:shiraz.khurana@gbu.ac.in">shiraz.khurana@gbu.ac.in</a>
+          </div>
+          <div>
+            <small>Institution</small>
+            <p>Gautam Buddha University, Greater Noida, India</p>
+          </div>
+          <div>
+            <small>Office</small>
+            <p>I-222, School of Information and Communication Technology</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Dr. Shiraz Khurana. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js?v=4"></script>
+</body>
+</html>
