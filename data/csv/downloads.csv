@@ -1,11 +1,11 @@
-﻿category,title,subject,courseCode,semester,year,description,fileType,fileSize,file
+category,title,subject,courseCode,semester,year,description,fileType,fileSize,file
 other,DBMS Book Korth,Database Management System,,,,Reference book for Database Management System,PDF,,assets/downloads/other/DBMS_Korth.pdf
 other,DBMS Book Navathe,Database Management System,,,,Reference book for Database Management System,PDF,,assets/downloads/other/DBMS_Navathe.pdf
 other,DBMS Theory Syllabus,Database Management System,,,,Theory Syllabus,PDF,,assets/downloads/other/DBMS_Theory_Syllabus.pdf
 other,DBMS Lab Syllabus,Database Management System,,,,Lab Syllabus,PDF,,assets/downloads/other/DBMS_Lab_Syllabus.pdf
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+presentation,Chapter 1,Database Management System,,,,Chapter 1 Updated Slides,PPTX,,assets/downloads/other/ch1.pptx
+presentation,Chapter 2,Database Management System,,,,Chapter 2 Updated Slides,PPTX,,assets/downloads/other/ch2.pptx
+presentation,Chapter 6,Database Management System,,,,Chapter 6 Updated Slides,PPTX,,assets/downloads/other/ch6.pptx
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
